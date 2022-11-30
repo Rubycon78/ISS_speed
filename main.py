@@ -30,3 +30,4 @@ im2 = f"Images/{list[1]}"
 print(str(im1))
 
 print(calculate_speed(im1, im2))
+#prova ema
