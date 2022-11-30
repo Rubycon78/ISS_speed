@@ -1,0 +1,8 @@
+1 - Installare i moduli richiesti scritti in requirements.txt
+2 - Copiare nella cartella "images" un set di immagini che rispettino le seguenti condizioni:
+        - non siano buie
+        - che siano state scattate una di fila all'altra senza interruzioni
+3 - avviare "main.py"
+4 - nella cartella "output" dovrebbe trovarsi un file "results.csv".
+    Il file (simile ad un excel) contiene per ogni riga i seguenti parametri:
+        immagine1, immagine2, velocita' tra le due immagini
