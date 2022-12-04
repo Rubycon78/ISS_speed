@@ -86,7 +86,7 @@ def calculate_speed(image_1, image_2):
     #display_matches(image_1_cv, keypoints_1, image_2_cv, keypoints_2, matches)
     coordinates_1, coordinates_2 = find_matching_coordinates(keypoints_1, keypoints_2, matches)
     average_feature_distance = calculate_mean_distance(coordinates_1, coordinates_2)
-    speed = calculate_speed_in_kmps(average_feature_distance, 12648, time_difference)
+    speed = calculate_speed_in_kmps(average_feature_distance, 32000.959, time_difference)
     return speed
 
 #function to iterate through the ordered list of images calculating the speed every couple. It creates a csv in output

@@ -1,11 +1,13 @@
 1 - Installare i moduli richiesti scritti in requirements.txt (tramite Thonny nel caso della prof. Lupo)
-2 - Copiare nella cartella "images" un set di immagini che rispettino le seguenti condizioni:
+2 - Cancellare, se presenti i file ".keep" nelle cartelle "images" e "output". Ora le due cartelle dovrebbero essere vuote.
+3 - Copiare nella cartella "images" un set di immagini che rispettino le seguenti condizioni:
         - non siano buie
         - che siano state scattate una di fila all'altra senza interruzioni 
         (Ad esmepio, quando elimina una sezione di immagini buie, rimangono due sezioni visibili di seguito.
-        Questo falserebbe le misurazine, dunque nella cartella "images" dovranno essere presenti solo le immagini
-        di una sezione visibile per volta, che conciderebbe con metà d'orbita)
-3 - avviare "main.py"
-4 - nella cartella "output" dovrebbe trovarsi un file "results.csv".
+        Questo falserebbe le misurazioni, dunque nella cartella "images" dovranno essere presenti solo le immagini
+        di una sezione visibile per volta, che conciderebbe con metà d'orbita.)
+4 - avviare "main.py"
+5 - nella cartella "output" dovrebbe trovarsi un file "results.csv".
     Il file (simile ad un excel) contiene per ogni riga i seguenti parametri:
         immagine1, immagine2, velocità tra le due immagini
+6 - Per eseguire un altra misurazione, bisogna cancelltare le immagini dalla cartella "Images" e copiare le nuove.
